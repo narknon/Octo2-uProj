@@ -1,0 +1,26 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EKSSaveDataParamType.generated.h"
+
+UENUM(BlueprintType)
+enum class EKSSaveDataParamType : uint8 {
+    VOLUME_VOICE,
+    VOLUME_BGM,
+    VOLUME_SE,
+    VOLUME_SE_ENV,
+    BALLOON_SPEED,
+    BALLOON_WAIT_TIME,
+    SCREEN_BRIGHTNESS,
+    TEXT_LANGUAGE,
+    FRAME_RATE,
+    RENDER_PROFILE,
+    UI_TEXTURE_RESOLUTION,
+    ANTI_ALIASING_QUALITY,
+    POST_PROCESSING_QUALITY,
+    SHADOW_QUALITY,
+    TEXTURE_QUALITY,
+    EFFECT_QUALITY,
+    VOLUME_SOUND_MASTER,
+    MAX,
+};
+

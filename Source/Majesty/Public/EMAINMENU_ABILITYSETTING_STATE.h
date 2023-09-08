@@ -1,0 +1,17 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EMAINMENU_ABILITYSETTING_STATE.generated.h"
+
+UENUM(BlueprintType)
+enum class EMAINMENU_ABILITYSETTING_STATE : uint8 {
+    eNONE,
+    eOPEN,
+    eSUBMENU,
+    eCOMMAND_ABILITY_GET,
+    eSUPPORT_ABILITY_CHANGE,
+    eCLOSE,
+    eCOMMAND_ABILITY_GET_CONFIRM,
+    eCOMMAND_ABILITY_GET_SUPPORT,
+    eCOMMAND_ABILITY_GET_CLOSE,
+};
+

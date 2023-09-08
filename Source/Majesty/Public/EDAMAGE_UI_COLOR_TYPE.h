@@ -1,0 +1,15 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EDAMAGE_UI_COLOR_TYPE.generated.h"
+
+UENUM(BlueprintType)
+enum class EDAMAGE_UI_COLOR_TYPE : uint8 {
+    eDAMAGE_COLOR_NORMAL,
+    eDAMAGE_COLOR_WEAKNESS,
+    eDAMAGE_COLOR_RECOVERY_BP,
+    eDAMAGE_COLOR_RECOVERY_HP,
+    eDAMAGE_COLOR_RECOVERY_MP,
+    eDAMAGE_COLOR_HP_RATIO,
+    eDAMAGE_COLOR_MAX UMETA(Hidden),
+};
+

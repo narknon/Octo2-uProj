@@ -1,0 +1,28 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "ESHOPMENU_STATE.generated.h"
+
+UENUM(BlueprintType)
+enum class ESHOPMENU_STATE : uint8 {
+    eSHOP_NONE,
+    eSHOP_OPEN_TOP,
+    eSHOP_CLOSE_TOP,
+    eSHOP_SELECT_TRADE,
+    eSHOP_BUY,
+    eSHOP_SELL,
+    eSHOP_SELECT_NUM,
+    eSHOP_SKIP_SELECT_NUM,
+    eSHOP_DISABLE_TRADE_MSG,
+    eSHOP_CONFIRM,
+    eSHOP_QUICK_EQUIP_CONFIRM,
+    eSHOP_QUICK_EQUIPMENT,
+    eSHOP_EQUIPMENT,
+    eSHOP_INN,
+    eSHOP_CHANGE_MEMBER,
+    eSHOP_STORY,
+    eSHOP_TOWN_RELATIONSHIP,
+    eSHOP_LINER_SHIP,
+    eSHOP_RECEIVE_GIFT,
+    eSHOP_MAX UMETA(Hidden),
+};
+

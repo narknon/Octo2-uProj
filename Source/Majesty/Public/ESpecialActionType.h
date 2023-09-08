@@ -1,0 +1,27 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "ESpecialActionType.generated.h"
+
+UENUM(BlueprintType)
+enum class ESpecialActionType : uint8 {
+    eNONE,
+    eUSE_LEARN_ABILITY,
+    eSPECIAL_ACTION_002,
+    eCALL_SUPPORTER_HUN,
+    eSPECIAL_ACTION_003,
+    eSPECIAL_ACTION_004,
+    eCALL_SUPPORTER_MER,
+    eCALL_SUPPORTER_PRI,
+    ePARTY_BUFF_IN_DAYTIME,
+    eSPECIAL_ACTION_006,
+    eSPECIAL_ACTION_007,
+    ePARTY_BUFF_IN_NIGHT,
+    eCALL_SUPPORTER_DAN,
+    eSPECIAL_ACTION_009,
+    eSPECIAL_ACTION_010,
+    eGOD_POWER,
+    eENEMY_DEBUFF_IN_NIGHT,
+    eUSE_SESSION_SUPPORT,
+    eUSE_BUSINESS_SUPPORT,
+};
+

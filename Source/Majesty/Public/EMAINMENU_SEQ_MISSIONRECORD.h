@@ -1,0 +1,26 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EMAINMENU_SEQ_MISSIONRECORD.generated.h"
+
+UENUM(BlueprintType)
+enum class EMAINMENU_SEQ_MISSIONRECORD : uint8 {
+    eNONE,
+    eWAIT,
+    eOPEN,
+    eMAIN_SELECT,
+    eMAIN_LIST,
+    eSUB_SELECT,
+    eSUB_LIST,
+    eEXTRA_SELECT,
+    eEXTRA_LIST,
+    eGAUGE_MOVE,
+    eGAUGE_TYPE_CHANGE,
+    eEVENT_PREVIEW,
+    eEVENT_PREVIEW_WAIT,
+    ePROLOUGE_DIALOG,
+    ePROLOUGE_FAILED_DIALOG,
+    ePROLOUGE_PROCESSOR_DIALOG,
+    ePARTYCHAT_LIST,
+    eCLOSE,
+};
+

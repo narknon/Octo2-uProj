@@ -1,0 +1,36 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "ENPCEVENT_TYPE.generated.h"
+
+UENUM(BlueprintType)
+enum class ENPCEVENT_TYPE : uint8 {
+    eNONE,
+    eNORMAL_TALK,
+    eDELIVERY_ITEM,
+    eLEAD_TARGET_NPC,
+    eWIN_NPC,
+    eWIN_ENEMY,
+    eACHIEVEMENT_MAP,
+    eFC_PURCHASE_ITEM,
+    eFC_BATTLE_WIN,
+    eLEAD_OTHER_TARGET_NPC,
+    eFC_BATTLE_LOSE,
+    eFC_MONSTER_WIN,
+    eFC_MONSTER_LOSE,
+    eFC_SEARCH,
+    eHAVE_ITEM,
+    eNOT_HAVE_ITEM,
+    eDELIVERY_INFO_AND_ITEM,
+    eDELIVERY_NPC_AND_ITEM,
+    eFC_FOLLOW_SUCCESS,
+    eFC_DOSE_SUCCESS,
+    eFC_ASSASSINATE_SUCCESS,
+    eNORMAL_TALK_WITH_PC,
+    ePARTY_MEMBER,
+    eFC_STUN_SUCCESS,
+    eJOIN_TARGET_PC,
+    eNOT_JOIN_TARGET_PC,
+    eFC_PURCHASE_ALL,
+    eFC_REVEAL_LOSE,
+};
+

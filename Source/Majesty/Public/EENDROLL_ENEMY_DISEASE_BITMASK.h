@@ -1,0 +1,33 @@
+#pragma once
+#include "CoreMinimal.h"
+#include "EENDROLL_ENEMY_DISEASE_BITMASK.generated.h"
+
+UENUM(BlueprintType)
+enum class EENDROLL_ENEMY_DISEASE_BITMASK : uint8 {
+    eNONE,
+    ePOISON,
+    eSILENCE,
+    eBLIND,
+    eCONFUSION,
+    eSLEEP,
+    eFEAR,
+    eBREAKDOWN,
+    eSIGN_OF_BOOST,
+    eROTTEN,
+    eSTEAM,
+    eROTTEN_SHIELD,
+    eREFLECTION_SHIELD,
+    eDISEASE_GUARD_SHIELD,
+    eFEAR_WHIP,
+    eULT_MAGIC_LV0,
+    eULT_MAGIC_LV1,
+    eULT_MAGIC_LV2,
+    eULT_MAGIC_LV3,
+    ePOINTING_WEAPON,
+    eVIDE_EFFECT,
+    eGALDERA_UPP_EFFECT,
+    eGALDERA_LOW_EFFECT,
+    eOBSIDIAN_STEAM_EFFECT,
+    eOBSIDIAN_SMOKE_EFFECT,
+};
+
